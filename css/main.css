@@ -105,6 +105,7 @@ main.container {
 .text > .contains {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 20px 50px;
 }
 .text > .contains > .list {
@@ -133,6 +134,7 @@ main.container {
 }
 .text .list > .list-image {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     list-style-type: none;
 }
@@ -188,10 +190,10 @@ main.container {
         flex-direction: row;
     }
     .gallery {
-        width: 60%;
+        width: 55%;
     }
     .text {
-        width: 40%;
+        width: 45%;
     }
 }
 
